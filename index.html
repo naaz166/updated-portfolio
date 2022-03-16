@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#">Naaz</a>
+        <button class="navbar navbar-light bg-primary navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<!-- header -->
+<!-- main banner -->
+<section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Naaz</h2>
+                <p class="hero_desc">I am a Software Developer</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section-->
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="images/about2.jpg" class="imageAboutPage" alt="">
+            </div>
+
+            <div class="col-lg-8">
+                <p>
+                An enthusiastic and passionate software developer with strong foundational programming skills and a passion for
+                progressing with IT industry.
+                Being a student of The Developer Academy’s Software Development Bootcamp, I'm looking for my first professional
+                development role in a supportive team that will push me to continually improve and develop my programming skill sets.
+
+                </p>
+               
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                    <h2 class="text-center">My Skills</h2>
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>React and Node applications</li>
+                            <li>Agile Methodologies</li>
+                            <li>Version Control(git and Github)</li>
+                            <li>Test Driven Development</li>
+                            <li>MongoDB</li>
+                            <li>Php</li>
+                            <li>Strong communication skills</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> Worked on individual and group-based projects.
+                       
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- portfolio section-->
+<section id="projects">
+    <div class="container mt-3">
+        <h1 class="text-center">Projects</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/project1.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"Hobby Website></h4>
+                        <p class="card-text">Learned a lot about Html,Css and Bootstrap,used html elements like divs,spans,hrefetc,creating tables,linking pages,navigating between pages,linking stylesheet ,adding cards and images.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://github.com/naaz166/hobby-website" target="_blank" class="btn btn-success">Github repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/project2.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Quiz App</h4>
+                        <p class="card-text">Made a quiz using JavaScript, it is a single page Html page,a seperate css file for styling,it gives results dynamically and it hides or shows elements depending on what the user is doing,displays results at the end of the quiz.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://naaz166.github.io/project2quiz/"target="_blank" class="btn btn-success">Live App</a>
+                            <a href="https://github.com/naaz166/project2quiz" target="_blank" class="btn btn-success">Github repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/project3.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Weather App</h4>
+                        <p class="card-text">For this project we were asked to build a Weather forecast app using ReactJS that shows the weather forecast for the
+                        next few days. It shows an image and a basic description of the weather using the OpenWeather API to retrieve forecast
+                        information.We learned how to use json given by Open weather ApI to populate our cards to display information of
+                        different cities..
+                        </p>
+                        <div class="text-center">
+                            <a href="https://weather-for-cities.herokuapp.com/" target="_blank" class="btn btn-success">Live App</a>
+                            <a href="https://github.com/naaz166/weather-app" target="_blank" class="btn btn-success">Github repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/project4.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Events App</h4>
+                        <p class="card-text">We were asked to build a Full stack events App that will allow us to Create, Read, Update and Delete events using
+                        MERN(MongoDB, Express, React, Node) Stack.
+                        React as frontend ,Express and Node as backend and MongoDB as database..
+                        </p>
+                        <div class="text-center">
+                            <a href="https://events-full-stack.herokuapp.com/" target="_blank" class="btn btn-success">Live App</a>
+                            <a href="github.com/naaz166/events-frontend" target="_blank" class="btn btn-success">UI Source</a>
+                            <a href="https://github.com/naaz166/events-backend" target="_blank" class="btn btn-success">Server Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/project5.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Book list API</h4>
+                        <p class="card-text">For this project we had to build our own API where we were able to add books to the list,remove books, edit books,delete
+                        books and return books based on search using MongoDB and Express, used software called insomnia for testing.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://github.com/naaz166/Book-list" target="_blank" class="btn btn-success">Github repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/project6.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Final Project</h4>
+                        <p class="card-text">We created product for our client(The Developer Academy). It was a group project which used Agile Methodology and we
+                        used all the skills we learned in the course. We used our frontend and backend knowledge to communicate between two to
+                        add , update and delete records for students.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://best-hog-group-app.herokuapp.com/intro"target="_blank" class="btn btn-success">View App</a>
+                            <a href="https://github.com/naaz166/frontend-hog.git" target="_blank"class="btn btn-success">UI Source</a>
+                            <a href="https://github.com/naaz166/backend-hog.git" target="_blank"class="btn btn-success">Server Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+          </div>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- footer section-->
+<footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </div>
+</footer>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    </body>
+    
+    </html>
+   
